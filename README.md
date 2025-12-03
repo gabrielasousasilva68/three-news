@@ -48,3 +48,4 @@ O site Three News foi criado para oferecer ao usuário uma experiência simples,
 - Oferece uma interface limpa e intuitiva, focada na leitura e interação do usuário.
 
 ## Desenvolvido por Gabriela de Sousa, Lívia Campos da Silva e Ingrid Lima Rocha 
+Turma de Tecnologia em Informática para Internet Vespertino - Senac DF
