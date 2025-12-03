@@ -34,8 +34,17 @@ O site Three News foi criado para oferecer ao usuário uma experiência simples,
  No terminal do VS Code digite:
       git clone https://github.com/gabrielasousasilva68/three-news.git
  No GitHub Desktop:
-  No menu: File(Arquivo)>Clone o repositor(Clonar repositório)>Selecione a aba URL, no campo URL, cole o link do repositório 
-## Desenvolvido por Gabriela de Sousa 
+  No menu: File(Arquivo)>Clone o repositor(Clonar repositório)>Selecione a aba URL, no campo URL, cole o link do repositório
+  
 ## Melhorias futuras
 - Organizar melhor os arquivos
 - Estilizar melhor para o responsivo
+  
+## Funcionalidades
+- Possui um formulário interativo onde os usuários podem escrever comentários sobre a página.
+- Assim que o usuário envia o comentário, ele aparece automaticamente acima do formulário, em ordem de postagem.
+- Conta com modo escuro, permitindo alternar entre tema claro e escuro para melhor conforto visual.
+- É totalmente responsivo, garantindo boa navegação em celulares, tablets e computadores.
+- Oferece uma interface limpa e intuitiva, focada na leitura e interação do usuário.
+
+## Desenvolvido por Gabriela de Sousa, Lívia Campos da Silva e Ingrid Lima Rocha 
