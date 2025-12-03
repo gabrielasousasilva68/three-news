@@ -4,7 +4,7 @@
 
 Página criada para informar, destacar e atualizar os usuários com conteúdos variados
 
-## 🚀 O que o Site Oferece
+##  O que o Site Oferece
 
 - Exibe notícias organizadas de forma clara e dinâmica, facilitando a leitura e a navegação.
 - Apresenta conteúdos de diferentes categorias, permitindo que o usuário encontre rapidamente o que procura.
@@ -12,7 +12,7 @@ Página criada para informar, destacar e atualizar os usuários com conteúdos v
 - Destaca manchetes, informações essenciais e atualizações de maneira objetiva.
 - Foi desenvolvido com foco em praticidade e experiência do usuário, garantindo acesso simples e rápido às notícias.
 
-## 🌐 Sobre o Three News
+##  Sobre o Three News
 O site Three News foi criado para oferecer ao usuário uma experiência simples, direta e organizada ao acompanhar notícias. A página apresenta conteúdos atualizados e dispostos por categorias, permitindo uma navegação ágil e eficiente. Seu layout responsivo garante boa visualização tanto no computador quanto no celular, enquanto o design limpo facilita a leitura das manchetes e informações principais. O objetivo do projeto é entregar um portal funcional, moderno e acessível para quem busca informação rápida e confiável.
 
 ## Ferramentas Utilizadas
