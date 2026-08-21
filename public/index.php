@@ -10,20 +10,20 @@
 
 <body>
     <header class="header" >
-        <a href="../public/index.html">
+        <a href="../public/index.php">
             <img class="logo" src="../src/assets/imagens/logomarca.png" >
         </a>
         <h1 id="titulo">Three News</h1>
         <div class="menu">
-            <a class="usuario" href="../public/index.html">
+            <a class="usuario" href="../public/index.php">
             <img src="../src/assets/imagens/perfil-de-usuario.png">
         </a>
             <div class="dropdown">☰
                 <div class="dropdown-content">
-                    <a href="../src/pages/livros.html">Livros</a>
-                    <a href="../src/pages/series.html">Séries</a>
-                    <a href="../src/pages/filmes.html">Filmes</a>
-                    <a href="../src/pages/musicas.html">Música</a>
+                    <a href="../src/pages/livros.php">Livros</a>
+                    <a href="../src/pages/series.php">Séries</a>
+                    <a href="../src/pages/filmes.php">Filmes</a>
+                    <a href="../src/pages/musicas.php">Música</a>
                 </div>
             </div>
             <button id="modoEscuro"></button>
@@ -32,27 +32,27 @@
     <main>
         <article class="article">
             <img src="../src/assets/imagens/taylor swift.png">
-            <h2><a class="a" href="../src/pages/noticia-1.html">Taylor Swift reinventa o pop em seu novo álbum — e mostra por que
+            <h2><a class="a" href="../src/pages/noticia-1.php">Taylor Swift reinventa o pop em seu novo álbum — e mostra por que
                     continua no topo da geração</a></h2>
         </article>
         <article class="article">
             <img src="../src/assets/imagens/stranger things.png">
-            <h2><a class="a" href="../src/pages/noticia-2.html">Stranger Things está de volta: a temporada mais sombria promete mexer
+            <h2><a class="a" href="../src/pages/noticia-2.php">Stranger Things está de volta: a temporada mais sombria promete mexer
                     com as emoções dos fãs</a></h2>
         </article>
         <article class="article">
             <img src="../src/assets/imagens/hipotese do amor atores.png">
-            <h2><a class="a" href="../src/pages/noticia-3.html"> Hipótese do Amor: o sucesso literário que vai ganhar vida nas
+            <h2><a class="a" href="../src/pages/noticia-3.php"> Hipótese do Amor: o sucesso literário que vai ganhar vida nas
                     telas</a></h2>
         </article>
         <article class="article">
             <img src="../src/assets/imagens/mpb.png">
-            <h2> <a class="a" href="../src/pages/noticia-4.html">O poder da MPB: como a música popular brasileira segue influenciando
+            <h2> <a class="a" href="../src/pages/noticia-4.php">O poder da MPB: como a música popular brasileira segue influenciando
                     gerações e moldando o som do mundo</a></h2>
         </article>
         <article class="article">
             <img src="../src/assets/imagens/caramelo.png">
-            <h2><a class="a" href="../src/pages/noticia-5.html">Caramelo: o filme brasileiro que conquistou o mundo e virou o novo
+            <h2><a class="a" href="../src/pages/noticia-5.php">Caramelo: o filme brasileiro que conquistou o mundo e virou o novo
                     fenômeno da Netflix</a></h2>
         </article>
     </main>

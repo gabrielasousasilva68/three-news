@@ -46,7 +46,7 @@
       </p>
     </section>
     <div class="voltar">
-      <a href="../pages/cadastro.html">
+      <a href="../pages/cadastro.php">
         <button>Voltar</button>
       </a>
     </div>

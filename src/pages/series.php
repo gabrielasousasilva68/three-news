@@ -10,20 +10,20 @@
 
 <body>
     <header class="header" >
-        <a href="../../public/index.html">
+        <a href="../../public/index.php">
             <img class="logo" src="../assets/imagens/logomarca.png" >
         </a>
         <h1 id="titulo">Three News</h1>
         <div class="menu">
-            <a class="usuario" href="../../public/index.html">
+            <a class="usuario" href="../../public/index.php">
             <img src="../assets/imagens/perfil-de-usuario.png">
         </a>
             <div class="dropdown">☰
                 <div class="dropdown-content">
-                    <a href="../pages/livros.html">Livros</a>
-                    <a href="../pages/series.html">Séries</a>
-                    <a href="../pages/filmes.html">Filmes</a>
-                    <a href="../pages/musicas.html">Música</a>
+                    <a href="../pages/livros.php">Livros</a>
+                    <a href="../pages/series.php">Séries</a>
+                    <a href="../pages/filmes.php">Filmes</a>
+                    <a href="../pages/musicas.php">Música</a>
                 </div>
             </div>
             <button id="modoEscuro"></button>
@@ -32,12 +32,12 @@
     <main>
         <article class="article">
             <img src="../assets/imagens/stranger things.png">
-            <h2><a class="a" href="noticia-2.html">Stranger Things está de volta: a temporada mais sombria promete mexer
+            <h2><a class="a" href="noticia-2.php">Stranger Things está de volta: a temporada mais sombria promete mexer
                     com as emoções dos fãs</a></h2>
         </article>
         <article class="article">
             <img src="../assets/imagens/djavan.png">
-            <h2><a class="a" href="noticia-3.html"> Hipótese do Amor: o sucesso literário que vai ganhar vida nas
+            <h2><a class="a" href="noticia-3.php"> Hipótese do Amor: o sucesso literário que vai ganhar vida nas
                     telas</a></h2>
         </article>
     </main>

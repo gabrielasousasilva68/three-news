@@ -10,20 +10,20 @@
 
 <body>
     <header class="header">
-        <a href="../../public/index.html">
+        <a href="../../public/index.php">
             <img class="logo" src="../assets/imagens/logomarca.png">
         </a>
         <h1 id="titulo">Three News</h1>
         <div class="menu">
-            <a class="usuario" href="../../public/index.html">
+            <a class="usuario" href="../../public/index.php">
             <img src="../assets/imagens/perfil-de-usuario.png">
         </a>
             <div class="dropdown">☰
                 <div class="dropdown-content">
-                    <a href="../pages/livros.html">Livros</a>
-                    <a href="../pages/series.html">Séries</a>
-                    <a href="../pages/filmes.html">Filmes</a>
-                    <a href="../pages/musicas.html">Música</a>
+                    <a href="../pages/livros.php">Livros</a>
+                    <a href="../pages/series.php">Séries</a>
+                    <a href="../pages/filmes.php">Filmes</a>
+                    <a href="../pages/musicas.php">Música</a>
                 </div>
             </div>
             <button id="modoEscuro"></button>
