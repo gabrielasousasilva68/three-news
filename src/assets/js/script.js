@@ -1,15 +1,21 @@
 const modoEscuro = document.getElementById('modoEscuro');
 
-document.body.classList.remove('escuro-modo');
-modoEscuro.textContent = '🌙';
+if (localStorage.getItem('modo') === 'escuro') {
+  document.body.classList.add('escuro-modo');
+  modoEscuro.textContent = '☀️';
+} else {
+  modoEscuro.textContent = '🌙';
+}
 
 modoEscuro.addEventListener('click', () => {
   document.body.classList.toggle('escuro-modo');
 
   if (document.body.classList.contains('escuro-modo')) {
     modoEscuro.textContent = '☀️';
+    localStorage.setItem('modo', 'escuro');
   } else {
     modoEscuro.textContent = '🌙';
+    localStorage.setItem('modo', 'claro');
   }
 });
 const comentarios = [];

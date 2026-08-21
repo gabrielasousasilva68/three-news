@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de cadastro</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="header" >
+        <a href="../../public/index.html">
+            <img class="logo" src="../assets/imagens/logomarca.png" >
+        </a>
+        <h1 id="titulo">Three News</h1>
+        <div class="menu">
+            <a class="usuario" href="../../public/index.html">
+            <img src="../assets/imagens/perfil-de-usuario.png">
+        </a>
+            <div class="dropdown">☰
+                <div class="dropdown-content">
+                    <a href="../src/pages/livros.html">Livros</a>
+                    <a href="../src/pages/series.html">Séries</a>
+                    <a href="../src/pages/filmes.html">Filmes</a>
+                    <a href="../src/pages/musicas.html">Música</a>
+                </div>
+            </div>
+            <button id="modoEscuro"></button>
+        </div>
+    </header>
+    <main>
+        <form method="post" action="../php/cadastrar.php">
+            <label> Nome: </label>
+            <input type="text" name=" nome" placeholder="Digite seu nome">
+            <label> E-mail: </label>
+            <input type="email" name="email" placeholder="Digite seu email">
+            <label> Senha: </label>
+            <input type="password" name="senha" placeholder="Digite sua senha">
+            <button  type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por Three News - Todos os direitos reservados!</p>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

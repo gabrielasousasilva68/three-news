@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+  --azul-pastel: #a6c8ff;
+  --azul-escuro: #0d1b2a;
+  --texto-claro: #ececec;
+  --texto-escuro: #1a1a1a;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+/* ARTIGOS */
+.article {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+/* IMAGENS DAS NOTÍCIAS */
+.article img {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+/* TEXTO DAS NOTÍCIAS */
+article p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* LINKS (TÍTULOS) */
+article a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* CENTRALIZAÇÃO DO CONTEÚDO */
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* ESPAÇAMENTO ENTRE NOTÍCIAS */
+article {
+  margin-bottom: 30px;
+}
+
+/* MODO ESCURO PARA NOTÍCIAS */
+.escuro-modo article a {
+  color: white;
+}
+
+.escuro-modo .article {
+  border-bottom: 1px solid #444;
+}
+body {
+  background-color: var(--texto-claro);
+  color: var(--texto-escuro);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  transition: 0.4s ease;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* HEADER */
+.header {
+  background-color: #a6c8ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.usuario img {
+  width: 18px;
+}
+
+/* BOTÃO MODO ESCURO */
+#modoEscuro {
+  background: transparent;
+  border: none;
+  color: #0056b3;
+  font-size: 1.2rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#modoEscuro:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* MAIN PADRÃO */
+main {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #a6c8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* FORM */
+form {
+  background-color: #a6c8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto 50px;
+  border-radius: 15px;
+  padding: 20px 0;
+}
+
+/* BOTÕES */
+button {
+  background-color: #033870;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 15px;
+}
+/* MENU HAMBURGUER */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* MENU ESCONDIDO */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  flex-direction: column;
+  z-index: 1000;
+}
+
+/* LINKS DO MENU */
+.dropdown-content a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* MOSTRAR MENU AO PASSAR O MOUSE */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+.escuro-modo .dropdown-content {
+  background-color: #1b3a5b;
+}
+
+.escuro-modo .dropdown-content a {
+  color: white;
+}
+
+.escuro-modo .dropdown-content a:hover {
+  background-color: #0056b3;
+}
+.escuro-modo .usuario img {
+  filter: invert(1);
+}
+/* ===== LOGIN/CADASTRO ===== */
+
+.pagina-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pagina-login .container {
+  width: 800px;
+  height: 450px;
+  margin: 50px auto;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.pagina-login .esquerdo {
+  width: 50%;
+  background-color: #a6c8ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagina-login .direito {
+  width: 50%;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagina-login .direito h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.pagina-login .direito form {
+  background-color: #a6c8ff;
+  width: 260px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.pagina-login input,
+.pagina-login select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 6px;
+  border: none;
+}
+
+.btn-white {
+  background: white;
+  color: #a6c8ff;
+}
+
+.btn-blue {
+  background: #123c6b;
+  color: white;
+}
+
+.termos {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* ===== LOGIN SIMPLES ===== */
+
+.container-login {
+  width: 350px;
+  background: #a6c8ff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container-login input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+}
+
+.esqueci {
+  text-align: right;
+}
+
+.esqueci a {
+  font-size: 12px;
+  color: #033870;
+}
+
+/* ===== USUÁRIO ===== */
+
+.pagina-usuario {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.perfil-container {
+  display: flex;
+  gap: 50px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  width: 400px;
+  height: 350px;
+  border: 2px solid #7fa6cc;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+
+.escuro-modo {
+  background-color: #0d1b2a;
+  color: #ececec;
+}
+
+.escuro-modo .header,
+.escuro-modo footer {
+  background-color: #102a43;
+}
+
+.escuro-modo button {
+  background-color: #0056b3;
+}
+
+.escuro-modo form,
+.escuro-modo .container-login,
+.escuro-modo .pagina-login .direito form {
+  background-color: #1b3a5b;
+}
+
+.escuro-modo .pagina-login .container {
+  background-color: #102a43;
+}
+
+.escuro-modo .pagina-login .esquerdo {
+  background-color: #1b3a5b;
+}
+
+.escuro-modo .pagina-login .direito {
+  background-color: #0d1b2a;
+}
+
+.escuro-modo input,
+.escuro-modo select {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.escuro-modo .btn-white {
+  background: white;
+  color: #1b3a5b;
+}
+
+.escuro-modo .termos {
+  color: #ccc;
+}
+
+.escuro-modo .info {
+  border-color: #5fa8ff;
+}
+
+.escuro-modo .foto {
+  border-color: #fff;
+}
+/* CSS MOBILE */
+@media screen and (max-width: 768px) {
+  .article img {
+    width: 250px;
+    height: 150px;
+  }
+
+  main {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .article {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  div.formulario {
+    width: 100%;
+  }
+
+  form {
+    background-color: #a6c8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px 20px 20px;
+  }
+
+  .escuro-modo form {
+    background-color: #033870;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px 20px 20px;
+  }
+
+  img {
+    
+    margin: 0 auto;
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    padding: 0;
+  }
+
+  header {
+    background-color: #a6c8ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  article {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+  }
+
+  article img.img-destaque {
+    width: 100%;
+  }
+ }
