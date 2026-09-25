@@ -21,14 +21,20 @@ O site Three News foi criado para oferecer ao usuário uma experiência simples,
 - JavaScript
 - GitHub
 - VS Code
+- PHP
+- MySql
 
 ## Como rodar o projeto
+1. Baixar e instalar o XAMPP
+2. Executar o XAMPP e iniciar Apache e o MySQL
 1. Baixe o repositório (Clique no Botão "Code">Download ZIP)
-2. Extraia a pasta
-3. Abra o arquivo index.html no navegador
+2. Extraia a pasta dentro de htdocs
+3. Acesse localhost/phpmyadmin
+4. Crie um novo banco de dados com o nome "sistemanoticias"
+5. Após criar o banco de dados selecione e clique no menu importar
+6. No menu importar selecionar o arquivo sistemanoticias.sql na pasta extraída e clicar no botão importar 
+7. Acesse o link localhost/blognoticias/index.php
 
-## Acesse o projeto online: 
- https://gabrielasousasilva68.github.io/three-news/
 
 ## Como clonar o projeto
  No terminal do VS Code digite:
