@@ -55,7 +55,7 @@ $resultado = $stmt->get_result();
                 
                 <select name="categoria" onchange="this.form.submit()">
                     <option value="">Todas as Categorias</option>
-                    <option value="Tecnologia" <?= $categoria === 'Tecnologia' ? 'selected' : '' ?>>Música</option>
+                    <option value="Musica" <?= $categoria === 'Musica' ? 'selected' : '' ?>>Música</option>
                     <option value="Entretenimento" <?= $categoria === 'Entretenimento' ? 'selected' : '' ?>>Entretenimento</option>
                     <option value="Filmes e Series" <?= $categoria === 'Filmes e Series' ? 'selected' : '' ?>>Filmes e Séries</option>
                     <option value="Livros" <?= $categoria === 'Livros' ? 'selected' : '' ?>>Livros</option>
